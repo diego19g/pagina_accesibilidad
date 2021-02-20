@@ -1,0 +1,50 @@
+$color1: #6d4c41;
+$color2: #e53935;
+
+.fuente{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: $color1;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: $color2;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+aside{
+    background-color: $color1;
+    color: white;
+    float: left;
+    width: 25%;
+    height: 75%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section{
+    background-color: $color1;
+    color: white;
+    float: right;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article{
+    background-color: $color2;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 30%;
+}
+footer{
+    background-color: $color1;
+    color: white;
+    text-align: center;
+    clear: both;
+    margin-top: 10px;
+}
