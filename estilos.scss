@@ -48,3 +48,40 @@ footer{
     clear: both;
     margin-top: 10px;
 }
+h1{
+    background-color: $color2;
+}
+
+video::cue{
+    text-align: center;
+    background-color: $color2;    
+}
+#enviar{
+    padding: .10em;
+}
+form{
+    padding: .10em;
+}
+  
+@media screen and (max-width: 800px) {
+    #enviar{
+        padding: .50em;
+    }
+    form input{
+        padding: .50em;
+    }
+    aside{
+        width: 100%;
+    }
+    section{
+        clear: both;
+        width: 100%;
+    }
+    img{
+        width:70%;
+    }
+    video{
+        width: 70%;
+    }
+    
+}

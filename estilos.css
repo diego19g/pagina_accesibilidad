@@ -52,4 +52,48 @@ footer {
   margin-top: 10px;
 }
 
+h1 {
+  background-color: #e53935;
+}
+
+video::cue {
+  text-align: center;
+  background-color: #e53935;
+}
+
+#enviar {
+  padding: 0.1em;
+}
+
+form {
+  padding: 0.1em;
+}
+
+@media screen and (max-width: 800px) {
+  #enviar {
+    padding: 0.5em;
+  }
+
+  form input {
+    padding: 0.5em;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  section {
+    clear: both;
+    width: 100%;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  video {
+    width: 70%;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
